@@ -19,7 +19,7 @@ export default function Header() {
   }
 
   return (
-    <header className="flex items-center justify-between w-full pt-10 lg:px-20 px-10">
+    <header className="flex items-center justify-between w-full pt-10 lg:px-20 px-6">
       {/* Logo placeholder */}
       <div className="text-white text-xl font-bold">
         <a href="/">
@@ -30,7 +30,7 @@ export default function Header() {
       {/* Conditionally Render Button */}
       {buttonText && buttonLink && (
         <a href={buttonLink}>
-          <div className="bg-[#00cdff] text-white text-lg font-medium rounded-full py-2 px-6 hover:bg-[#00b3e6] transition-colors">
+          <div className="bg-[#00cdff] text-white text-lg font-medium rounded-full py-2 px-4 md:px-6 hover:bg-[#00b3e6] transition-colors">
             {buttonText}
           </div>
         </a>
