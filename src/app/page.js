@@ -10,12 +10,7 @@ export default function Home() {
           Your Web3 Conference BD
         </h1>
         <p className="text-white/70 text-lg md:text-xl max-w-4xl mb-8 py-5">
-        Confra is your Web3 Conference BD.  We go to conferences for you (or with you) to 
-        accelerate the growth of your sales pipeline by delivering qualified, quality leads 
-        from every conference booth, side event, dinner, party and hallway conversation at 
-        the most important conferences on Web3’s annual calendar. Confra removes the stress, 
-        hassle and time-consuming nature of conference attendance, ensuring your business 
-        can maximise the ROI from every dollar and minute spent at a conference.
+          Confra is your Web3 Conference BD. We go to conferences for you (or with you) to accelerate the growth of your sales pipeline by delivering qualified, quality leads from every conference booth, side event, dinner, party and hallway conversation at the most important conferences on Web3’s annual calendar. Confra removes the stress, hassle and time-consuming nature of conference attendance and booth management, ensuring your business can maximise the ROI from every dollar and minute spent at a conference.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-x-10 gap-y-5 justify-center mb-16">
