@@ -36,7 +36,7 @@ export default function ClientsPage() {
 
       {/* How It Works Section */}
       <FadeInSection>
-        <section className="w-full min-h-screen py-20 bg-white content-center items-center text-center">
+        <section className="w-full min-h-screen py-20 bg-white content-center items-center text-center sm:px-10">
         <h2 className="text-gray-900 text-4xl sm:text-5xl font-bold leading-[60px] mb-2">
           How It Works
         </h2>
@@ -82,7 +82,7 @@ export default function ClientsPage() {
 
       {/* Benefits Section */}
       <FadeInSection>
-        <section className="w-full min-h-screen py-20 bg-[#0c003c] content-center items-center text-center">
+        <section className="w-full min-h-screen py-20 bg-[#0c003c] content-center items-center text-center sm:px-10">
         <h2 className="text-white text-4xl sm:text-5xl font-bold leading-[60px] mb-2">
           Benefits
         </h2>
@@ -129,7 +129,7 @@ export default function ClientsPage() {
 
       {/* Pricing Section */}
       <FadeInSection>
-        <section className="w-full min-h-screen content-center items-center text-center bg-white text-center py-20">
+        <section className="w-full min-h-screen content-center items-center text-center bg-white text-center py-20 sm:px-10">
         <h2 className="text-gray-900 text-4xl sm:text-5xl font-bold leading-[60px] mb-20">
           Pricing
         </h2>
@@ -139,7 +139,7 @@ export default function ClientsPage() {
           <div className="flex flex-col items-center pb-10 md:pb-0">
             <img src='dollar.png' className="w-6 h-9 mb-6" />
             <p className="text-gray-700 text-base font-normal leading-normal max-w-xs">
-              Flat daily fee, covering BD’s time, per diem and travel costs
+              Flat daily fee (covering BD rep, travel, conference costs)
             </p>
           </div>
 
@@ -156,10 +156,6 @@ export default function ClientsPage() {
           <Button onClick={handleOpenModal}>Get Started</Button>
         </div>
       </FadeInSection>
-
-        <footer className="pb-4 text-center text-gray-700 text-sm w-full bg-white">
-          © 2024 Confra. All Rights Reserved.
-        </footer>
 
       {/* Modal */}
       <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
