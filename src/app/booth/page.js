@@ -16,7 +16,7 @@ export default function ClientsPage() {
       {/* Hero Section */}
       <FadeInSection>
         <main className="flex-grow flex flex-col items-center justify-center text-center px-4 py-24">
-          <h1 className="text-[#cdff00] font-bold text-4xl lg:text-6xl leading-tight mb-4">
+          <h1 className="text-[#cdff00] font-bold text-4xl lg:text-5xl leading-tight mb-4">
             Your Web3 Conference Booth Experts
           </h1>
           <p className="text-white/70 text-lg md:text-xl max-w-4xl py-5">
