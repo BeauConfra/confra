@@ -1,7 +1,9 @@
+'use client'
+
 import Button from '../../components/Button'
 import FadeInSection from '../../components/FadeInSection'
 
-export default function ClientsPage() {
+export default function BDPage() {
   return (
     <div className="bg-[#0c003c] min-h-screen w-full flex flex-col items-center font-sans">
       
@@ -21,7 +23,7 @@ export default function ClientsPage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-x-10 gap-y-5 justify-center mb-16">
-                <a href='https://forms.gle/YYZ2HtNV3MHaEZm99'>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSfCRebSwg8scFexh0SbOEKRNeSHXEL5jvlgOpCol9bPQhCpSA/formrestricted'>
                     <Button>Apply Now</Button>
                 </a>
             </div>
@@ -30,7 +32,7 @@ export default function ClientsPage() {
 
       {/* How It Works Section */}
       <FadeInSection>
-        <section className="w-full min-h-screen py-20 bg-white content-center items-center text-center content-center">
+        <section className="w-full min-h-screen py-20 bg-white content-center items-center text-center content-center sm:px-10">
             <h2 className="text-gray-900 text-4xl sm:text-5xl font-bold leading-[60px] mb-2">
             Who We Need
             </h2>
@@ -77,7 +79,7 @@ export default function ClientsPage() {
 
       {/* Benefits Section */}
       <FadeInSection>
-        <section className="w-full min-h-screen py-20 bg-[#0c003c] content-center items-center text-center">
+        <section className="w-full min-h-screen py-20 bg-[#0c003c] content-center items-center text-center sm:px-10">
             <h2 className="text-white text-4xl sm:text-5xl font-bold leading-[60px] mb-2">
                 Benefits for Confra BDs
             </h2>
@@ -124,7 +126,7 @@ export default function ClientsPage() {
 
       {/* How It Works Section */}
       <FadeInSection>
-        <section className="w-full min-h-screen py-20 bg-white content-center items-center text-center content-center">
+        <section className="w-full min-h-screen py-20 bg-white content-center items-center text-center content-center sm:px-10">
             <h2 className="text-gray-900 text-4xl sm:text-5xl font-bold leading-[60px] mb-2">
                 How It Works
             </h2>
@@ -174,9 +176,6 @@ export default function ClientsPage() {
                 <Button>Apply Now</Button>
             </a>
         </div>
-      <footer className="pb-4 text-center text-gray-700 text-sm w-full bg-white">
-        © 2024 Confra. All Rights Reserved.
-      </footer>
     </div>
   )
 }
